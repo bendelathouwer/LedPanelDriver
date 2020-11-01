@@ -1,5 +1,5 @@
 PROJ := test1
-PIN_DEF := C:\Users\Ben\Documents\GitHub\LedPanelDriver\src\icebreaker.pcf
+PIN_DEF := C:\Users\Ben\Documents\GitHub\LedPanelDriver\icebreaker.pcf
 DEVICE := up5k
 
 all: $(PROJ).rpt $(PROJ).bin

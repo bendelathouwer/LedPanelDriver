@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="R1.2.0">
+	<Comment></Comment>
+	<Chain>
+		<Comm>SPI</Comm>
+		<Device>
+			<SelectedProg value="TRUE"/>
+			<Pos>1</Pos>
+			<Vendor>WinBond</Vendor>
+			<Family>SPI Serial Flash</Family>
+			<Name>W25Q128FW</Name>
+			<IDCode>0x00000017</IDCode>
+			<Package>8-pin SOIC</Package>
+			<PON>W25Q128FWSI</PON>
+			<Bypass>
+				<InstrLen>0</InstrLen>
+				<InstrVal></InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>../test1.bin</File>
+			<FileTime>10/11/20 15:29:50</FileTime>
+			<MemoryType>External SPI Flash Memory (SPI FLASH)</MemoryType>
+			<Operation>Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<AccessMode>Direct Programming</AccessMode>
+			</Option>
+			<FPGALoader>
+			<FlashDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>WinBond</Vendor>
+					<Family>SPI Serial Flash</Family>
+					<Name>W25Q128FW</Name>
+					<Package>8-pin SOIC</Package>
+					<Operation>Erase,Program,Verify</Operation>
+					<File>../test1.bin</File>
+					<AddressBase>0x00000000</AddressBase>
+					<EndAddress>0x00010000</EndAddress>
+					<DeviceSize>0</DeviceSize>
+					<DataSize>104090</DataSize>
+					<NumberOfDevices>1</NumberOfDevices>
+					<ReInitialize value="FALSE"/>
+				</Device>
+			</FlashDevice>
+			</FPGALoader>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<VerifyUsercode value="FALSE"/>
+		<TCKDelay>1</TCKDelay>
+	</ProjectOptions>
+	<CableOptions>
+		<CableName>USB2</CableName>
+		<PortAdd>FTUSB-0</PortAdd>
+		<USBID>iCEBreaker V1.0e A Location 0000 Serial ibpci7KaA</USBID>
+	</CableOptions>
+</ispXCF>
